@@ -1,3 +1,7 @@
+// return true if the string is a palindrome
+// false, if not
+// a palindrome is a word or phrase that's spelled the same backward and forward
+
 function palindrome(str) {
   str = str.replace(/[^A-Z0-9]/ig, "");
   str = str.toLowerCase().split("");
